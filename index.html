@@ -70,17 +70,7 @@
   <li>Innere Stadt</li>
   <li>Bindermichel</li>
 </ul>
-    <ul id="liste-linz"></ul>
-    <script>
-  // Teil A: Lokale Daten
-  const stadtteile = ["Urfahr", "Innere Stadt", "Bindermichel"];
-  const liste = document.getElementById("liste-linz");
-  stadtteile.forEach(s => {
-    let li = document.createElement("li");
-    li.textContent = s;
-    liste.appendChild(li);
-  });
-</script>
+   
 <ul id="service-liste"></ul>
     <script>
   fetch('https://jsonplaceholder.typicode.com/users')
